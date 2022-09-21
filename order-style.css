@@ -18,17 +18,22 @@ body {
 
 .wrapper {
     background-color: white;
-    max-width: 35%;
+    max-width: 30%;
     margin: 5%;
     overflow: hidden;
 }
-
+                    /* image */
 .img-container {
     display: block;
     object-fit: cover;
     max-width: 100%;
 }
 
+#hero {
+    display: block;
+    margin: auto;
+}
+                    /* Summary */
 .intro {
     padding: 5% 10% 0 10%;
     text-align: center;
@@ -52,7 +57,7 @@ h2 {
 }
 span {
     position: absolute;
-    left: 78%;
+    left: 75%;
     top: 40%;
     font-weight: bold;
 }
@@ -61,7 +66,7 @@ p {
     font-size: 16px;
     color: hsl(224, 23%, 55%);
 }
-
+                    /* Payment */
 .check-out {
     display: flex;
     align-items: center;
