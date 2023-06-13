@@ -2,7 +2,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    border-radius: 15px;
 }
 
 body {
@@ -11,6 +10,7 @@ body {
     align-items: center;
     justify-content: center;
     background: url(./images/pattern-background-desktop.svg) no-repeat;
+    background-size: contain;
     background-color: hsl(225, 100%, 94%);
     flex-direction: column;
     font-family: 'Red Hat Display', sans-serif;
@@ -18,20 +18,16 @@ body {
 
 .wrapper {
     background-color: white;
-    max-width: 30%;
+    max-width: 21rem;
     margin: 5%;
     overflow: hidden;
+    border-radius: 15px;
 }
                     /* image section */
-.img-container {
-    display: block;
-    object-fit: cover;
-    max-width: 100%;
-}
-
 #hero {
     display: block;
     margin: auto;
+    max-width: 100%;
 }
                     /* Summary */
 .intro {
@@ -50,6 +46,7 @@ h2 {
     flex-direction: row;
     padding: 5%;
     position: relative;
+    border-radius: 12px;
 }
 
 #icon {
@@ -81,6 +78,7 @@ p {
     height: 50px;
     border-style: none;
     font-weight: bold;
+    border-radius: 12px;
 }
 
 #canc-order {
