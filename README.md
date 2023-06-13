@@ -1,4 +1,4 @@
-# Frontend Mentor - OrderSummaryComponent
+# Frontend Mentor - Order Summary Component
 
 This is a solution to the [Order summary component challenge](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj).
 
